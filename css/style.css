@@ -1,0 +1,44 @@
+header {
+  display: flex; 
+ 
+  
+}
+.menu
+{
+button {
+  background: none;        
+  border: none;            
+  cursor: pointer;       
+  outline: inherit;       
+}
+}
+.logo
+{
+  color: rgb(255, 0, 0); 
+  font-family: 'Juana Alt Bold';
+  font-style: bold;
+  align-items: center;
+  font-size: 80px;
+   margin-bottom: 2px;
+}
+.sign
+{
+  
+  button {
+  background: none;        
+  border: none;            
+  cursor: pointer;        
+  outline: inherit;       
+}
+}
+.login
+{
+  
+
+  button {
+  background: none;        
+  border: none;           
+  cursor: pointer;        
+  outline: inherit;       
+}
+}
