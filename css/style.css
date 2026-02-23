@@ -1,3 +1,5 @@
+
+
 header {
   display: flex; 
  
@@ -9,7 +11,7 @@ button {
   background: none;        
   border: none;            
   cursor: pointer;       
-  outline: inherit;       
+  outline: inherit;     
 }
 }
 .logo
@@ -19,7 +21,7 @@ button {
   font-style: bold;
   align-items: center;
   font-size: 80px;
-   margin-bottom: 2px;
+   margin-bottom: 2px; 
 }
 .sign
 {
@@ -41,4 +43,20 @@ button {
   cursor: pointer;        
   outline: inherit;       
 }
+}
+.textos1
+{
+  border-style: solid;
+  height: 15%;
+  width: 25%;
+  text-align: justify; 
+  display: flex-between;
+ 
+}
+.textos2
+{
+  border-style: solid;
+  width: 50%;
+  height: 20%;
+ 
 }
