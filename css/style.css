@@ -1,5 +1,3 @@
-
-
 header {
   display: flex;
 
@@ -8,43 +6,9 @@ header {
 
 
 }
-<<<<<<< HEAD
 
 .menu {
   display: flex;
-=======}
-.menu
-{
-button {
-  background: none;        
-  border: none;            
-  cursor: pointer;       
-  outline: inherit;     
-}
-}
-.logo
-{
-  color: rgb(255, 0, 0); 
-  font-family: 'Juana Alt Bold';
-  font-style: bold;
-  align-items: center;
-  font-size: 80px;
-   margin-bottom: 2px; 
-}
-.sign
-{
-  
-  button {
-  background: none;        
-  border: none;            
-  cursor: pointer;        
-  outline: inherit;       
-}
-}
-.login
-{
-  
->>>>>>> f9ab533283f1d2882e11dddada6213a7ffafcb17
 
   button {
     background: none;
@@ -64,7 +28,6 @@ button {
   display: flex;
   margin: -1.5%
 }
-<<<<<<< HEAD
 
 .sidebar {
   text-align: center;
@@ -117,45 +80,31 @@ button {
   }
 }
 
-.textos1 {
-  border-style: solid;
-  border-width: 1px;
-  height: 80px;
-  width: 20px;
-  text-align: justify;
-  display: flex;
-  
 
-  
-}
-
-.textos2 {
-   display: flex;
-  border-width: 1px;
-  border-style: solid;
-  height: 250px;
-  width: 700px;
-
-}
-
-section{
-  justify-content: space-evenly;
+section {
   display: grid;
-=======}
-.textos1
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1px;
+h1{
+  font-size: 18px
+}
+
+li{
+  font-size: 15px
+}
+.texto1
 {
   border-style: solid;
-  height: 15%;
-  width: 25%;
-  text-align: justify; 
-  display: flex-between;
- 
+width: auto;
+height: max-content;
+
 }
-.textos2
+.texto2
 {
   border-style: solid;
-  width: 50%;
-  height: 20%;
- 
->>>>>>> f9ab533283f1d2882e11dddada6213a7ffafcb17
+ width:600px;
+ height:800px;
 }
+
+}
+
