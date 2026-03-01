@@ -1,3 +1,5 @@
+
+
 header {
   display: flex;
 
@@ -6,9 +8,43 @@ header {
 
 
 }
+<<<<<<< HEAD
 
 .menu {
   display: flex;
+=======}
+.menu
+{
+button {
+  background: none;        
+  border: none;            
+  cursor: pointer;       
+  outline: inherit;     
+}
+}
+.logo
+{
+  color: rgb(255, 0, 0); 
+  font-family: 'Juana Alt Bold';
+  font-style: bold;
+  align-items: center;
+  font-size: 80px;
+   margin-bottom: 2px; 
+}
+.sign
+{
+  
+  button {
+  background: none;        
+  border: none;            
+  cursor: pointer;        
+  outline: inherit;       
+}
+}
+.login
+{
+  
+>>>>>>> f9ab533283f1d2882e11dddada6213a7ffafcb17
 
   button {
     background: none;
@@ -28,6 +64,7 @@ header {
   display: flex;
   margin: -1.5%
 }
+<<<<<<< HEAD
 
 .sidebar {
   text-align: center;
@@ -104,4 +141,21 @@ header {
 section{
   justify-content: space-evenly;
   display: grid;
+=======}
+.textos1
+{
+  border-style: solid;
+  height: 15%;
+  width: 25%;
+  text-align: justify; 
+  display: flex-between;
+ 
+}
+.textos2
+{
+  border-style: solid;
+  width: 50%;
+  height: 20%;
+ 
+>>>>>>> f9ab533283f1d2882e11dddada6213a7ffafcb17
 }
