@@ -1,34 +1,53 @@
 
+header {
+  display: flex;
+  justify-content: space-between; /* Distribui as 3 seções */
+  align-items: center;           /* Alinha verticalmente */
+  padding: 10px 20px;
+  border-bottom: 1px solid #eee; /* Opcional: linha divisória */
+}
+
+/* 1. O SEGREDO: Faz com que as 3 colunas tenham larguras iguais */
+.menu, 
+.logo, 
+.botoes {
+  flex: 1; 
+}
+
+/* 2. Alinha o menu (SVG) à esquerda */
+.menu {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* 3. Centraliza o logo horizontalmente */
+.logo {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 0, 0);
+  font-family: 'Juana Alt Bold', serif;
+  font-weight: bold; 
+  font-size: 60px;
+  cursor: pointer;
+}
+
+/* 4. Empurra os botões (Assinar e Entrar) para a direita */
+.botoes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px; /* Espaço entre os botões */
+}
+
+/* Reset de botões e estilos de texto */
 button {
   background: none;
   border: none;
   cursor: pointer;
   outline: inherit;
- font-family: "Saint Paul Sans", sans-serif;
- 
-}
-
-button a {
-  color: black;
-  text-decoration: none;
-  font-size: 11px;
+  font-family: "Saint Paul Sans", sans-serif;
   font-weight: bold;
-}
-
-
-header, .menu, .sign, .login {
-  display: flex;
-}
-
-.logo {
-  color: rgb(255, 0, 0);
-  font-family: 'Juana Alt Bold';
-  font-weight: bold; 
-  font-size: 60px;
-  text-align: center;
-  display: flex;
-  margin: -1.5%;
-  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 11px;
 }
 
 .sidebar {
@@ -36,7 +55,7 @@ header, .menu, .sign, .login {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  border-block: 1px solid gray; 
+  border-block: 1px solid rgb(167, 167, 167); 
   margin-bottom: 2%;
   padding-block: 2%; 
 }
@@ -45,18 +64,22 @@ header, .menu, .sign, .login {
   margin: 0 2%; 
 }
 
+.blank{height: 200px;}
+
 
 .grid1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 8px;
+  grid-gap: 20px;
   justify-content: center;
-  align-items: center;
-  border-block: 1px solid gray;
-  margin-left: 25px;
-  width: 95%;
+  justify-content: center;
+  border-block: 1px solid rgb(167, 167, 167);
+  padding-bottom: 1%;
+  margin-left: 5%;
+  width: 90%;
 }
 .grid2 {
+  margin-left: none;
   width: 600px;
   overflow: hidden; 
   flex-direction: column;
@@ -64,13 +87,13 @@ header, .menu, .sign, .login {
   align-items: center;
   text-align: center;
   margin-top: 10px;
-  border-inline: 1px solid gray; 
+  border-inline: 1px solid rgb(167, 167, 167); 
   width: 600px;
   height:500px;
   img
   {
     
-    width: 550px;height: 350px;
+    width: 580px;height: 380px;
   }
  
 }
@@ -82,6 +105,10 @@ header, .menu, .sign, .login {
 }
 
 .texto2 {
+  h1 {
+  font-size: 18px;
+}
+
   width: 100%; /* Cada slide ocupa a largura total do grid2 */
   text-align: center;
 }
@@ -96,13 +123,80 @@ header, .menu, .sign, .login {
 
 
 
-.texto2 h1 {
-  font-size: 18px;
-}
 
 .texto1 {
+  height: 100px;
+  width: 280px;
+  margin-top:initial;
   text-align: justify;
+  h1{font-size: 10px;}
+  h2{font-size: 20px;}
+  li::marker{color: red;}
+  li{
+    margin-left: -20px;
+    margin-bottom: 15px;}
+  .lista1{
+    
+    border-bottom: solid 1px rgb(167, 167, 167);
+  }
 }
 
-.texto1 h1 { font-size: 10px; }
-.texto1 h2, .texto1 li { font-size: 15px; }
+
+
+
+
+.texto3
+{
+   margin-top:initial;
+  h1{font-size: 10px;
+  margin-bottom: -10px;}
+  p{font-size: 20px;}
+}
+
+
+
+.grid3 {
+  font-family: "Saint Paul Sans", sans-serif;
+  padding: 3%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 5px; 
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+ border-bottom: 1px solid rgb(167, 167, 167);
+}
+
+
+
+
+
+.texto5 {
+  
+   
+    img {margin-left: 15px;
+      width: 200px;
+      height: 200px;
+      
+    }
+
+   h1{margin-left: 15px;
+    font-size: 12px;
+  margin-bottom: -10px;}
+  p{margin-left: 15px;font-size: 15px;}
+    
+}
+
+.texto4 {
+   
+  border-left: solid 1px rgb(167, 167, 167);
+    img {margin-left: 15px;
+      width: 200px;
+      height: 200px;
+      }
+h1{margin-left: 15px;font-size: 12px;
+  margin-bottom: -10px;}
+  p{margin-left: 15px;font-size: 15px;}
+    
+  
+}
