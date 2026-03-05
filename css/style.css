@@ -1,4 +1,6 @@
-
+*{
+  font-family: "IBM Plex Sans", sans-serif;
+}
 header {
   display: flex;
   justify-content: space-between; /* Distribui as 3 seções */
